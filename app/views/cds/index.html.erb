@@ -1,0 +1,13 @@
+<table>
+<tbody>
+    <% @cds.each do |cd| %>
+      <tr>
+        <td><%= cd.id %></td>
+        <td><%= cd.name %></td>
+        <td><%= cd.artist %></td>
+        <td><%= cd.song %></td>
+
+      </tr>
+    <% end %>
+  </tbody>
+</table>
